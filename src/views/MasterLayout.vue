@@ -118,8 +118,8 @@
 </template>
 
 <script>
-import SiteHeader from "./page/SiteHeader.vue";
-import MainFooter from "./page/MainFooter.vue";
+import MainFooter from "@/components/MainFooter.vue";
+import SiteHeader from "@/components/SiteHeader.vue";
 
 export default {
   components: { SiteHeader, MainFooter },
